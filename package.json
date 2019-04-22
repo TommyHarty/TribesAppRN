@@ -1,0 +1,42 @@
+{
+  "name": "TribesApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.12",
+    "apollo-fetch": "^0.7.0",
+    "apollo-link-context": "^1.0.8",
+    "graphql": "^0.13.2",
+    "moment": "^2.22.2",
+    "react": "16.4.1",
+    "react-apollo": "^2.1.9",
+    "react-native": "0.56.0",
+    "react-native-code-push": "^5.6.0",
+    "react-native-image-picker": "^0.27.2",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-onesignal": "^3.2.12",
+    "react-native-progress": "^3.5.0",
+    "react-native-sortable-listview": "^0.2.8",
+    "react-native-stripe-api": "^0.1.0",
+    "react-navigation": "^2.11.2",
+    "rn-fetch-blob": "^0.10.15"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts"
+    ]
+  }
+}

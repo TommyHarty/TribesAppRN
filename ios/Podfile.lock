@@ -1,0 +1,37 @@
+PODS:
+  - OneSignal (2.9.4)
+  - React (0.56.0):
+    - React/Core (= 0.56.0)
+  - react-native-onesignal (3.2.12):
+    - OneSignal (= 2.9.4)
+    - React
+  - React/Core (0.56.0):
+    - yoga (= 0.56.0.React)
+  - yoga (0.56.0.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - react-native-onesignal (from `../node_modules/react-native-onesignal/react-native-onesignal.podspec`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OneSignal
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  react-native-onesignal:
+    :path: "../node_modules/react-native-onesignal/react-native-onesignal.podspec"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  OneSignal: a41f5a896177275662da07e23d6a809c0e105a89
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  react-native-onesignal: f4dddbd062825fb18ea5c4e34da501318cce334d
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 8407d90e0b225815a020b3331ba0516943fc96e4
+
+COCOAPODS: 1.5.3
